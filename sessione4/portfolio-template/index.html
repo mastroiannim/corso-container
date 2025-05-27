@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header con navigazione -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Il Mio Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#competenze">Competenze</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sezione Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Ciao, sono <span class="highlight">Il Tuo Nome</span></h2>
+                <h3>Sviluppatore Web Junior</h3>
+                <p>Benvenuto nel mio portfolio! Qui puoi vedere i miei progetti e le mie competenze.</p>
+                <div class="cta-buttons">
+                    <a href="#progetti" class="btn primary">Vedi Progetti</a>
+                    <a href="#contatti" class="btn secondary">Contattami</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Sostituisci con la tua immagine -->
+                <img src="img/profile-placeholder.jpg" alt="Il Tuo Nome">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Progetti -->
+    <section id="progetti" class="projects">
+        <div class="container">
+            <h2 class="section-title">I Miei Progetti</h2>
+            <div class="projects-grid">
+                <!-- Progetto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/project1.jpg" alt="Gioco del Tris">
+                    </div>
+                    <div class="project-info">
+                        <h3>Gioco del Tris</h3>
+                        <p>Un gioco del tris interattivo creato con HTML, CSS e JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Codice</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Progetto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/project2.jpg" alt="Memory Game">
+                    </div>
+                    <div class="project-info">
+                        <h3>Memory Game</h3>
+                        <p>Un gioco memory con timer e conteggio delle mosse.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Codice</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Progetto 3 (Aggiungi il tuo) -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/project3.jpg" alt="Progetto Personale">
+                    </div>
+                    <div class="project-info">
+                        <h3>Il Tuo Progetto</h3>
+                        <p>Descrizione del tuo progetto personale.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Codice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Competenze -->
+    <section id="competenze" class="skills">
+        <div class="container">
+            <h2 class="section-title">Le Mie Competenze</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Strumenti</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git/GitHub</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Docker</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>VS Code</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Contatti -->
+    <section id="contatti" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informazioni di contatto</h3>
+                    <p>Sono disponibile per progetti freelance e opportunità di lavoro.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>email@esempio.com</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <span>github.com/tuousername</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/tuousername</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Inviami un messaggio</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Messaggio</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Il Tuo Nome. Tutti i diritti riservati.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

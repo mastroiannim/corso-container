@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Game</h1>
+        
+        <div class="game-info">
+            <div class="timer" id="timer">Tempo: 0s</div>
+            <div class="moves" id="moves">Mosse: 0</div>
+        </div>
+        
+        <div class="difficulty-selector">
+            <button class="difficulty-btn" data-grid="4">Facile (4×4)</button>
+            <button class="difficulty-btn" data-grid="6">Medio (6×6)</button>
+            <button class="difficulty-btn" data-grid="8">Difficile (8×8)</button>
+        </div>
+        
+        <div class="game-board" id="game-board">
+            <!-- Le carte verranno generate dinamicamente con JavaScript -->
+        </div>
+        
+        <button id="restart-btn">Ricomincia</button>
+        
+        <div class="game-stats">
+            <h2>Statistiche</h2>
+            <div id="stats-container">
+                <p>Miglior tempo: <span id="best-time">-</span></p>
+                <p>Minor numero di mosse: <span id="best-moves">-</span></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal per la vittoria -->
+    <div class="modal" id="win-modal">
+        <div class="modal-content">
+            <h2>Hai vinto!</h2>
+            <p>Hai completato il gioco in <span id="result-time">0</span> secondi con <span id="result-moves">0</span> mosse.</p>
+            <button id="play-again-btn">Gioca ancora</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco del Tris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gioco del Tris</h1>
+        
+        <div class="status" id="status">Turno di X</div>
+        
+        <div class="board" id="board">
+            <!-- Le celle del tris verranno create dinamicamente con JavaScript -->
+        </div>
+        
+        <button id="reset-button">Ricomincia</button>
+        
+        <div class="score">
+            <div class="score-item">
+                <span class="player">X</span>
+                <span class="points" id="score-x">0</span>
+            </div>
+            <div class="score-item">
+                <span class="player">O</span>
+                <span class="points" id="score-o">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
