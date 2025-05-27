@@ -1,3 +1,5 @@
+### [Corso di Sviluppo Web con Container](../readme.md)
+
 # Sessione 5 – Docker + Bot Telegram (Worker su Render)
 
 ## Obiettivi della sessione
@@ -239,3 +241,4 @@ In questa sessione finale metterai insieme tutte le competenze acquisite per cre
    - Implementazione di un database per memorizzare dati utente
 2. Aggiorna il codice, ricostruisci l'immagine Docker e pubblica le modifiche
 3. Render aggiornerà automaticamente il servizio con la nuova versione
+

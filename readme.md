@@ -10,7 +10,7 @@
 - Minime basi di programmazione (facoltative ma utili)
 ---
 ## 🗂️ Struttura del Corso
-### 📘 **Sessione 1 – Fondamenti Web + Ambiente di Sviluppo**
+### 📘 **[Sessione 1](sessione1/README.md) – Fondamenti Web + Ambiente di Sviluppo**
 **Obiettivi:**
 - Setup ambienti: GitHub, Codespaces, DockerHub, Render
 - Creare una pagina HTML base
@@ -26,7 +26,7 @@
 - Pubblicazione repo su GitHub
 > 🛠️ **Esercizio:** Pagina personale pubblicata su GitHub
 ---
-### 🎨 **Sessione 2 – CSS + JS Interattivo: Gioco del Tris**
+### 🎨 **[Sessione 2](sessione2/README.md) – CSS + JS Interattivo: Gioco del Tris**
 **Obiettivi:**
 - Comprendere i limiti degli ambienti temporanei (Codespaces)
 - Imparare a Pubblicare il progetto su GitHub Pages
@@ -39,7 +39,7 @@
 - Guida al deploy su GitHub Pages
 > 🛠️ **Esercizio:** Gioco Tris pubblicato su GitHub Pages
 ---
-### 🧠 **Sessione 3 – Memory Game + GitHub Pages**
+### 🧠 **[Sessione 3](sessione3/README.md) – Memory Game + GitHub Pages**
 **Obiettivi:**
 - Realizzare un'applicazione più complessa con JavaScript
 - Imparare a gestire array, timer e condizioni di vittoria
@@ -51,7 +51,7 @@
 - Pubblicazione su GitHub Pages
 > 🛠️ **Esercizio:** Memory Game sviluppato con GitHub Codespaces e pubblicato su GitHub Pages
 ---
-### 🚀 **Sessione 4 – Deployment Professionale con Render**
+### 🚀 **[Sessione 4](sessione4/README.md) – Deployment Professionale con Render**
 **Obiettivi:**
 - Imparare a fare il deploy di un sito statico su Render
 - Confrontare diverse soluzioni di hosting: Render vs GitHub Pages
@@ -65,7 +65,7 @@
 - Condivisione e presentazione dei portfolio
 > 🛠️ **Esercizio:** Portfolio personale online via Render con dominio personalizzato
 ---
-### 📦 **Sessione 5 – Docker + Bot Telegram (Worker su Render)**
+### 📦 **[Sessione 5](sessione5/README.md) – Docker + Bot Telegram (Worker su Render)**
 **Obiettivi:**
 - Imparare i concetti base di Docker e containerizzazione
 - Creare un Dockerfile per un'applicazione Node.js

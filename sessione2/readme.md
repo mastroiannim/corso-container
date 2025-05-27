@@ -1,3 +1,5 @@
+### [Corso di Sviluppo Web con Container](../readme.md)
+
 # Sessione 2 – CSS + JS Interattivo: Gioco del Tris
 
 ## Obiettivi della sessione
